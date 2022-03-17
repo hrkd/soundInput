@@ -26,6 +26,7 @@
 		817603EE655EE3365B256E5A /* ofxInputField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2271EF8762ACE471CF677BE2 /* ofxInputField.cpp */; };
 		866ACEB977FAB3191AD48906 /* ofxOscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BAA0F221902291E676F45 /* ofxOscSender.cpp */; };
 		8A1AAFBF49F2317FADC1E2F6 /* ofxMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 392C077DEA55CF4CF63957CE /* ofxMidi.cpp */; };
+		8CDC609B27E30C35004D905F /* meshClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC609927E30C35004D905F /* meshClass.cpp */; };
 		8EE9FB735EC21FBF6FCE8166 /* ofxEasyFft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81450F93320842D701CBC606 /* ofxEasyFft.cpp */; };
 		92A50AF72101624C3A8E6446 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C846292EE0D139BE5E0C7E7F /* ofxButton.cpp */; };
 		951BE42613CDC71533216D5E /* ofxMidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B70070ACED5ABEA70C736A3F /* ofxMidiIn.cpp */; };
@@ -123,6 +124,8 @@
 		87B806F0D6D781113D42BF9E /* ofxColorPicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxColorPicker.h; path = ../../addons/ofxGui/src/ofxColorPicker.h; sourceTree = SOURCE_ROOT; };
 		8A844876A71DBD7546201CC6 /* ofxOscMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOscMessage.cpp; path = ../../addons/ofxOsc/src/ofxOscMessage.cpp; sourceTree = SOURCE_ROOT; };
 		8C0215FD4B5831FD7F3F4B11 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OscPrintReceivedElements.h; path = ../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
+		8CDC609927E30C35004D905F /* meshClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = meshClass.cpp; sourceTree = "<group>"; };
+		8CDC609A27E30C35004D905F /* meshClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = meshClass.hpp; sourceTree = "<group>"; };
 		8FD1797ECDDC571B75C21646 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxLabel.h; path = ../../addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
 		9083096F8A210325A3FA6BBD /* kiss_fftr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = kiss_fftr.c; path = ../../addons/ofxFft/libs/kiss/kiss_fftr.c; sourceTree = SOURCE_ROOT; };
 		959C959DC69AB944167875C4 /* ofxMidiMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMidiMessage.cpp; path = ../../addons/ofxMidi/src/ofxMidiMessage.cpp; sourceTree = SOURCE_ROOT; };
@@ -940,6 +943,8 @@
 				BE3E112B91A83D0ECF51D23B /* testClass.cpp */,
 				CD62A122E6007874785D1494 /* soundInput.hpp */,
 				03FC5FA1EB29B88CCA87C9D5 /* soundInput.cpp */,
+				8CDC609A27E30C35004D905F /* meshClass.hpp */,
+				8CDC609927E30C35004D905F /* meshClass.cpp */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -1069,6 +1074,7 @@
 				5BCC1F1BD0760AB46BC81333 /* ofxProcessFFT.cpp in Sources */,
 				FA0D4902FAA63D187EA61B31 /* ofxBaseGui.cpp in Sources */,
 				92A50AF72101624C3A8E6446 /* ofxButton.cpp in Sources */,
+				8CDC609B27E30C35004D905F /* meshClass.cpp in Sources */,
 				D772C476F63497951AD45BA8 /* ofxColorPicker.cpp in Sources */,
 				3A47706C1DF9A0D4045568C0 /* ofxGuiGroup.cpp in Sources */,
 				817603EE655EE3365B256E5A /* ofxInputField.cpp in Sources */,

@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "soundInput.hpp"
 #include "testClass.hpp"
+#include "meshClass.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -23,9 +24,11 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     bool isDebug = false;
+    int switchDraw = 0;
     vector<float> fftVal;
 
     // Sound Input
     soundInput mSoundInput;
     testClass mTestClass;
+    meshClass mMeshClass;
 };

@@ -4,14 +4,21 @@
 void ofApp::setup(){
     mSoundInput.setup();
     mTestClass.setup();
+    mMeshClass.setup();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     mSoundInput.update();
     fftVal = mSoundInput.getAnalyzed();
-    mTestClass.setAnalyzed(fftVal);
-    mTestClass.update();
+
+    if(switchDraw%2 == 0){
+        mMeshClass.setAnalyzed(fftVal);
+        mMeshClass.update();
+    }else{
+        mTestClass.setAnalyzed(fftVal);
+        mTestClass.update();
+    }
 }
 
 //--------------------------------------------------------------
@@ -19,7 +26,11 @@ void ofApp::draw(){
     if(isDebug){
         mSoundInput.draw();
     }
-    mTestClass.draw();
+    if(switchDraw%2 == 0){
+        mMeshClass.draw();
+    }else{
+        mTestClass.draw();
+    }
 }
 
 //--------------------------------------------------------------
@@ -29,6 +40,13 @@ void ofApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
+    std::cout << key << std::endl;
+
+    //A key
+    if(key == 97){
+        switchDraw++;
+    }
+
     //D key
     if(key == 100){
         isDebug = !isDebug;
