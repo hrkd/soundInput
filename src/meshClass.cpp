@@ -24,6 +24,9 @@ void meshClass::setup(){
     ofEnableDepthTest();
 }
 
+void meshClass::update(){
+}
+
 void meshClass::draw(){
     ofBackground(0,0,0);
     cam.begin();
