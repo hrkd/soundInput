@@ -17,7 +17,6 @@ public:
     void update();
     void draw();
     vector<float> getAnalyzed();
-
 private:
     void audioReceived(float* input, int bufferSize, int nChannels);
     void plot(vector<float>& buffer, float scale, float offset);

@@ -13,6 +13,7 @@
 #include "ofMain.h"
 #include "ofxMidi.h"
 #include <iostream>
+#include <math.h>
 
 class meshClass: public ofBaseApp, public ofxMidiListener {
 public:
@@ -29,9 +30,13 @@ public:
     std::vector<ofxMidiMessage> midiMessages;
     std::size_t maxMessages = 10; //< max number of messages to keep track of
 private:
+    ofNode parentNode;
     ofEasyCam cam;
     ofMesh mesh;
     ofPlanePrimitive plane;
     ofSpherePrimitive sphere;
+
+    vector<glm::vec3> vertices;
+    float fftMemo[100][100];
 };
 #endif /* meshClass_hpp */

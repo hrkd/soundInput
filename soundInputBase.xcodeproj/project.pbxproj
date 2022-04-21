@@ -941,10 +941,10 @@
 			children = (
 				9653734DA9B8A9ECF6FC5D57 /* testClass.hpp */,
 				BE3E112B91A83D0ECF51D23B /* testClass.cpp */,
-				CD62A122E6007874785D1494 /* soundInput.hpp */,
-				03FC5FA1EB29B88CCA87C9D5 /* soundInput.cpp */,
 				8CDC609A27E30C35004D905F /* meshClass.hpp */,
 				8CDC609927E30C35004D905F /* meshClass.cpp */,
+				CD62A122E6007874785D1494 /* soundInput.hpp */,
+				03FC5FA1EB29B88CCA87C9D5 /* soundInput.cpp */,
 			);
 			name = classes;
 			sourceTree = "<group>";

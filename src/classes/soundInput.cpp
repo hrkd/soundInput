@@ -12,7 +12,7 @@ void soundInput::setup() {
     
     ofSoundStreamSettings settings;
     auto devices = ofSoundStreamListDevices();
-    string deviceName = "Existential Audio Inc.: BlackHole 2ch";
+    string deviceName = "Existential Audio Inc.: BlackHole 16ch";
     int targetDeviceId = 0;
     for (int i = 0; i < devices.size(); i++) {
         std::cout << devices[i].name << std::endl;
